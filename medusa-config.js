@@ -98,7 +98,6 @@ const plugins = [
     },
   },
 
-
   {
     resolve: `medusa-file-spaces`,
     options: {
