@@ -65,8 +65,6 @@ const plugins = [
   {
     resolve: `medusa-plugin-meilisearch`,
     options: {
-      // config object passed when creating an instance
-      // of the MeiliSearch client
       config: {
         host: process.env.MEILISEARCH_HOST,
         apiKey: process.env.MEILISEARCH_API_KEY,
