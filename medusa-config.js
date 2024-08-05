@@ -108,6 +108,17 @@ const plugins = [
     },
   },
 
+  {
+    resolve: `medusa-custom-attributes`,
+    options: {
+      enableUI: true,
+      projectConfig: {
+        store_cors: STORE_CORS,
+        admin_cors: ADMIN_CORS,
+      },
+    },
+  },
+
 ];
 
 const modules = {
