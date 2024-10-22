@@ -61,7 +61,7 @@ const plugins = [
       },
     },
   },
-
+/**
   {
     resolve: `medusa-plugin-meilisearch`,
     options: {
@@ -87,7 +87,7 @@ const plugins = [
       },
     },
   },
-
+ */
   {
     resolve: `medusa-payment-stripe`,
     options: {
